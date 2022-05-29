@@ -7,5 +7,12 @@ conda init bash
 chmod 600 /home/deepaksadulla/.kaggle/kaggle.json
 conda create -n Dev python=3.9
 conda activate Dev
-pip3 install sklearn numpy pandas tensorflow-cpu kaggle xgboost
+pip3 install sklearn numpy pandas tensorflow-cpu kaggle xgboost jupyterlab matplotlib
+cd <required folder>
 kaggle competitions download -c h-and-m-personalized-fashion-recommendations
+unzip -qq h-and-m-personalized-fashion-recommendations.zip
+chmod 600 /home/deepaksadulla/.kaggle/kaggle.json
+kaggle datasets download -d deepaksadulla/hm-image-features-w-resnet50
+kaggle datasets download -d deepaksadulla/hm-text-features-w-roberta
+unzip -qq hm-text-features-w-roberta.zip
+unzip -qq hm-image-features-w-resnet50.zip

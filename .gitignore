@@ -3,3 +3,10 @@ data/articles.csv
 data/sample_submission.csv
 data/transactions_train.csv
 data/customers.csv
+data/hm-text-features-w-roberta.zip
+data/hm-image-features-w-resnet50.zip
+data/image_df.pkl
+data/text_df.pkl
+results/train*
+results/valid*
+results/encoding_dict.pkl
